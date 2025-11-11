@@ -1,0 +1,5 @@
+vendor/
+*.rar
+*.zip
+.phpunit.cache/
+
