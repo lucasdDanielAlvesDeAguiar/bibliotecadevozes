@@ -12,5 +12,7 @@ public function testBuscarPorVoz(){
     $l2 = new Voz(2, "aprenda java", "autor Y", 12.0, 3);
     $bib = new Biblioteca([$l1, $l2]);
     $this->assertCount(3, $bib->getVozes());
+    $this->assertNotEmpty($bib->getVozes()); 
 }
+
 }
