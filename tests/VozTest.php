@@ -11,5 +11,6 @@ class VozTest extends Testcase
     {
         $l = new Voz(1, "test", "A", 5.0, 2);
         $this->assertEquals(1,$l->getId());
+            $this->assertSame("Autor X", $v->getAutor());
     }
 }
