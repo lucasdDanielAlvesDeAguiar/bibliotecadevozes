@@ -14,6 +14,6 @@ class UsuarioTest extends Testcase
         $this->assertEquals(1,$usuario->getId());
         $this->assertEquals('Lucas',$usuario->getNome());
         $this->assertEquals('lucas@bibvozes.com',$usuario->getEmail());
-
+        $this->assertFileExists('Login\Usuario');
     }
 }
