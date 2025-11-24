@@ -1,7 +1,7 @@
 <?php
 
 use BibliotecaDeVozes\BibliotecaDeVozes\Voz;
-use PHPUnit\Framework\Testcase;
+use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\CoversClass;
 
 #[CoversClass(Voz::class)]
